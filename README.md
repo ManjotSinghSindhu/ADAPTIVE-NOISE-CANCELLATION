@@ -23,6 +23,8 @@ and nˆ , E[ sˆ 2] = E[s2] + E[(n - nˆ )2] + 2E[s(n - nˆ )]
 
 = E[s2] + E[(n - nˆ )2]
 
+For MATLAB Output Refer Image ANC.jpg
+
 The signal power E[s2] will be unaffected as the filter is adjusted to minimize E[ sˆ 2] ⇒ minE[sˆ2] =E[s2] + minE[(n-nˆ)2]
 Thus, when the filter is adjusted to minimize the output noise power E[ sˆ 2], the output noise power E[(n - nˆ )2] is also minimized. Since the signal in the output remains constant, therefore minimizing the total output power maximizes the output signal-to-noise ratio.
 Since	( sˆ - s) = (n – nˆ )
